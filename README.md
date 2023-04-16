@@ -9,7 +9,7 @@ We propose a novel framework, the inception transformer-based point tracker for 
 Our papers and code will be released upon acceptance.
 
 ## Installation
-Create conda environment and install pytorch. Tested with pytorch 1.4.0 and CUDA 10.0. Might work with other versions as well, but not tested.
+Create conda environment and install pytorch. Tested with pytorch 1.8.0 and CUDA 11.1. Might work with other versions as well, but not tested.
 ```sh
 conda create -n ptit python=3.7
 conda activate ptit
