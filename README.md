@@ -4,11 +4,9 @@
 
 We propose a novel framework, the inception transformer-based point tracker for 3D point cloud tracking through four main stages: 1) feature extraction; 2) feature transform; 3) feature matching; and 4) feature offset.
 
-<img src="docs/PTIT.pdf" align="center" width="100%">
+<img src="docs/PTIT.png" align="center" width="100%">
 
-Proposed PTIT framework. The network consists of four main stages: feature extraction, transform, matching, and offset. Position embedding of points, box and point aware are additionally used for feature augmentation. The backbone PointNet is used to extract features from the input point cloud, and we use our proposed instance-guided sampling to help select more foreground points from the search area. In the point Inception Transformer module, we aggregate the neighborhood features of points, and use multi-frequency attention and cross-attention to perform feature transformation and matching, respectively. In the prediction phase, we use a motion-assisted module to further perform feature offset to generate predictions in a coarse-to-fine manner.
-
-Our paper will be published soon.
+Our papers and code will be released upon acceptance.
 
 ## Installation
 Create conda environment and install pytorch. Tested with pytorch 1.4.0 and CUDA 10.0. Might work with other versions as well, but not tested.
