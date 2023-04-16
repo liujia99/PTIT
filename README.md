@@ -6,7 +6,7 @@ We propose a novel framework, the inception transformer-based point tracker for 
 
 <img src="docs/PTIT.png" align="center" width="100%">
 
-Our papers and code will be released upon acceptance.
+Our paper and code will be released upon acceptance.
 
 ## Installation
 Create conda environment and install pytorch. Tested with pytorch 1.8.0 and CUDA 11.1. Might work with other versions as well, but not tested.
