@@ -4,7 +4,7 @@
 
 We propose a novel framework, the inception transformer-based point tracker for 3D point cloud tracking through four main stages: 1) feature extraction; 2) feature transform; 3) feature matching; and 4) feature offset.
 
-<img src="docs/PTIT.png" align="center" width="100%">
+<img src="docs/ptit.png" align="center" width="100%">
 
 Our paper and code will be released upon acceptance.
 
